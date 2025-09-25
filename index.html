@@ -7,6 +7,8 @@
     <title>Allon4Maroc Dental Clinic</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Add Babel to transpile JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -51,6 +53,13 @@
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!--
+      Babel script tag:
+      - type="text/babel": Tells the browser this script needs to be processed by Babel.
+      - data-presets="react,typescript": Crucial for telling Babel how to transform the code.
+        It enables transformations for JSX (react) and TypeScript syntax.
+      - data-type="module": Informs Babel that the script uses ES modules (import/export).
+    -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
   </body>
 </html>
