@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useCallback } from 'react';
-import { PauseSliderIcon } from './Icons';
+import { PauseSliderIcon } from './Icons.tsx';
 
 interface ImageComparerProps {
     before: string;

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ConservativeIcon, KeyIcon, CalendarIcon, MailIcon, PhoneIcon } from '../components/Icons';
+import { ConservativeIcon, KeyIcon, CalendarIcon, MailIcon, PhoneIcon } from '../components/Icons.tsx';
 
 interface EquipePageProps {
     onNavigate: (page: string) => void;

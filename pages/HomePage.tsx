@@ -5,7 +5,7 @@ import {
     UserIcon, MailIcon, PhoneIcon, FileTextIcon, 
     CameraIcon, FileIcon, HappyFaceIcon, TargetIcon, 
     HeartIcon, BoltIcon
-} from '../components/Icons';
+} from '../components/Icons.tsx';
 
 interface HomePageProps {
     onNavigate: (page: string) => void;

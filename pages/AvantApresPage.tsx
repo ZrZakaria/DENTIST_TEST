@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { HappyFaceIcon, StarIcon, ClockIcon, AwardIcon } from '../components/Icons';
-import { ImageComparer } from '../components/ImageComparer';
+import { HappyFaceIcon, StarIcon, ClockIcon, AwardIcon } from '../components/Icons.tsx';
+import { ImageComparer } from '../components/ImageComparer.tsx';
 
 const AvantApresPage = () => {
     const stats = [

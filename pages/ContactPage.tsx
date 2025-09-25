@@ -4,7 +4,7 @@ import {
     LocationPinIcon, PhoneIconV2, EnvelopeIcon, ClockIconV3,
     TramIcon, ParkingIcon, AccessibilityIcon, SirenIcon, CalendarIcon,
     FacebookIconV2, InstagramIconV2, TwitterIconV2
-} from '../components/Icons';
+} from '../components/Icons.tsx';
 
 const ContactPage = () => {
 

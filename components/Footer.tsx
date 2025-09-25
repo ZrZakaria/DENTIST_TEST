@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Logo, FacebookIcon, InstagramIcon, TwitterIcon, LocationIcon, PhoneIcon, MailIcon, ClockIcon, ArrowUpIcon } from './Icons';
+import { Logo, FacebookIcon, InstagramIcon, TwitterIcon, LocationIcon, PhoneIcon, MailIcon, ClockIcon, ArrowUpIcon } from './Icons.tsx';
 
 interface FooterProps {
     onNavigate: (page: string) => void;

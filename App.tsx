@@ -1,13 +1,13 @@
 
 import React, { useState } from 'react';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import HomePage from './pages/HomePage';
-import ServicesPage from './pages/ServicesPage';
-import EquipePage from './pages/EquipePage';
-import AvantApresPage from './pages/AvantApresPage';
-import StatistiquesPage from './pages/StatistiquesPage';
-import ContactPage from './pages/ContactPage';
+import { Header } from './components/Header.tsx';
+import { Footer } from './components/Footer.tsx';
+import HomePage from './pages/HomePage.tsx';
+import ServicesPage from './pages/ServicesPage.tsx';
+import EquipePage from './pages/EquipePage.tsx';
+import AvantApresPage from './pages/AvantApresPage.tsx';
+import StatistiquesPage from './pages/StatistiquesPage.tsx';
+import ContactPage from './pages/ContactPage.tsx';
 
 
 // --- Main App Component ---

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HappyFaceIcon, TargetIcon, ClockIcon, AwardIcon, ChartBarIcon, TrendingUpIcon, UsersIcon, BoltIcon } from '../components/Icons';
+import { HappyFaceIcon, TargetIcon, ClockIcon, AwardIcon, ChartBarIcon, TrendingUpIcon, UsersIcon, BoltIcon } from '../components/Icons.tsx';
 
 const StatistiquesPage = () => {
     const stats = [

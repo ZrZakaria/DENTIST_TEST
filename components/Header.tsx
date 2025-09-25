@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Logo, GlobeIcon, ChevronDownIcon } from './Icons';
+import { Logo, GlobeIcon, ChevronDownIcon } from './Icons.tsx';
 
 interface HeaderProps {
     currentPage: string;

@@ -4,7 +4,7 @@ import {
     ScissorsIcon, OrthoIcon, ImplantIcon, GumsIcon,
     CheckIcon, ClockIconV2, ProstheticsIcon,
     ConservativeIcon, PedodonticsIcon, ExpertiseIcon, CaringIcon, AdvancedTechIcon
-} from '../components/Icons';
+} from '../components/Icons.tsx';
 
 interface ServicesPageProps {
     onNavigate: (page: string) => void;
